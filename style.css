@@ -1,0 +1,96 @@
+html {
+	font-family: 'Roboto Mono', monospace;
+}
+
+body {
+	font-size: 14px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	color: inherit; 
+}
+
+.card {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	border-radius: 10px;
+	transition: 0.3s;
+	padding: 10px;
+	margin: 10px;
+	width: fill;
+}
+
+.menu {
+	width: 75vw;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5vw;
+}
+
+.profile {
+	box-shadow: 0 32px 64px 0 rgba(0,0,0,0.2);
+	width: 50vw;
+	text-align: center;
+	margin-left: auto;
+	margin-top: 5vw;
+	margin-right: auto;
+	margin-bottom: 5vw;
+}
+
+.card.profile:hover {
+	box-shadow: 0 32px 64px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+	box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+img {
+	width: 20%;
+	border-radius: 5px;
+}
+
+.grid {
+	display: grid;
+	grid-gap: 1%;
+}
+
+@media only screen and (max-width: 1000px) {
+	.grid {
+		grid-template-columns: auto;
+	}
+	.profile {
+		width: 50vw;
+	}
+	.menu {
+		width: 75vw;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.grid {
+		grid-template-columns: auto;
+	}
+	.profile {
+		width: 75vw;
+	}
+	.menu {
+		width: 90vw;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.grid {
+		grid-template-columns: auto;
+	}
+	.profile {
+		width: 90vw;
+	}
+	.menu {
+		width: auto;
+	}
+}

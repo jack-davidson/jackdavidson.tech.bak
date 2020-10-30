@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Jack Davidson</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="card profile">
+    <img src="devicon.png">
+    <div>
+      <h4><b>Jack Davidson</b></h4>
+      <p>Programmer &amp; Software Engineer</p>
+    </div>
+  </div>
+  <div class="card menu">
+    <p>Hi, my name is Jack Davidson and I am a programmer and web
+    developer in Austin, Texas.</p>
+    <div class="grid">
+      <a href="javascript:toggleContent('about_content');"
+         onmouseleave="javascript:hideContent('about_content');"
+         onmouseover="javscript:unhideContent('about_content');">
+        <div class="card">
+          <b>About</b>
+          <div id="about_content" style="display:none;">
+            <p>
+              The quick brown fox jumps over the lazy dog.
+            </p>
+          </div>
+        </div>
+      </a>
+      <a href="portfolio.html"
+         onmouseleave="javascript:hideContent('portfolio_content');"
+         onmouseover="javscript:unhideContent('portfolio_content');">
+        <div class="card">
+          <b>Portfolio</b>
+        </div>
+      </a>
+      <a href="https://gitlab.com/J0ND03"
+         onmouseleave="javascript:hideContent('git_content');"
+         onmouseover="javscript:unhideContent('git_content');">
+        <div class="card">
+          <b>Git</b>
+          <div id="git_content" style="display:none;">
+            <p>
+              Personal repositories &amp; open source code.
+            </p>
+          </div>
+        </div>
+      </a>
+      <a href="javascript:toggleContent('contact_content');"
+         onmouseleave="javascript:hideContent('contact_content');"
+         onmouseover="javscript:unhideContent('contact_content');">
+        <div class="card">
+          <b>Contact</b>
+          <div id="contact_content" style="display:none;">
+            <p>
+              for general or business inquiries):
+              <div class="card"
+                   style="width:calc(100%/3);
+                          margin-left:auto;
+                          margin-right:auto;">
+                <b>jackmaverickdavidson [at] gmail [dot] com</b>
+              </div>
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
