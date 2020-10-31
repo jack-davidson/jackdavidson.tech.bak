@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	font-size: 14px;
+	font-size: 15px;
 	background-color: #ffffff;
 	color: #000000;
 }
@@ -24,7 +24,7 @@ a {
 }
 
 .menu {
-	width: 75vw;
+	width: 50vw;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -32,17 +32,17 @@ a {
 }
 
 .profile {
-	box-shadow: 0 32px 64px 0 rgba(0,0,0,0.2);
-	width: 50vw;
+    padding-top: 2vw;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	width: 30vw;
 	text-align: center;
 	margin-left: auto;
-	margin-top: 5vw;
 	margin-right: auto;
-	margin-bottom: 5vw;
+	margin-bottom: 4vw;
 }
 
 .card.profile:hover {
-	box-shadow: 0 32px 64px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .card:hover {
@@ -56,41 +56,15 @@ img {
 
 .grid {
 	display: grid;
-	grid-gap: 1%;
+	grid-gap: 1;
 }
 
-@media only screen and (max-width: 1000px) {
-	.grid {
-		grid-template-columns: auto;
-	}
-	.profile {
-		width: 50vw;
-	}
-	.menu {
-		width: 75vw;
-	}
-}
-
-@media only screen and (max-width: 800px) {
-	.grid {
-		grid-template-columns: auto;
-	}
-	.profile {
-		width: 75vw;
-	}
-	.menu {
-		width: 90vw;
-	}
-}
-
-@media only screen and (max-width: 400px) {
-	.grid {
-		grid-template-columns: auto;
-	}
-	.profile {
-		width: 90vw;
-	}
-	.menu {
-		width: auto;
-	}
+@media screen and (max-width: 1000px) {
+    .menu {
+        width: 80vw;
+    }
+    .profile {
+        width: 60vw;
+        margin-bottom: 8vw;
+    }
 }
