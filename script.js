@@ -1,4 +1,5 @@
-function toggleContent(id){
+function toggleContent(id)
+{
 	var id_content = document.getElementById(id);
 	if (id_content.style.display === "none") {
 		id_content.style.display = "block";
@@ -7,14 +8,17 @@ function toggleContent(id){
 	}
 }
 
-function unhideContent(id){
+function unhideContent(id)
+{
 	document.getElementById(id).style.display = "block";
 }
 
-function hideContent(id){
+function hideContent(id)
+{
 	document.getElementById(id).style.display = "none";
 }
 
-function goTo(id){
+function goTo(id)
+{
 	document.getElementById(id).scrollIntoView();
 }
