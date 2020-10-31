@@ -2,12 +2,12 @@
 
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <title>Jack Davidson</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Jack Davidson</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="card profile">
@@ -19,44 +19,34 @@
   </div>
   <div class="card menu">
     <div class="grid">
-        <a href="javascript:toggleContent('about_content');">
-        <div class="card">
-          About
-          <div id="about_content" style="display:none;">
-            <p style="padding-left: 2vw; padding-right: 2vw;">
-                Hi, my name is Jack Davidson and I am a web developer &amp; programmer
-                based in Austin, Texas. I enjoy computer science &amp; mathematics.
-                I have a strong passion for learning and I am a strong believer in the
-                growth mindset.
-            </p>
-          </div>
+      <div class="card" style="cursor: pointer;" onclick="javascript:toggleContent('about_content');">
+        About
+        <div id="about_content" style="display:none;">
+          <p style="padding-left: 2vw; padding-right: 2vw;">
+            Hi, my name is Jack Davidson and I am a web developer &amp; programmer
+            based in Austin, Texas. I enjoy computer science &amp; mathematics.
+            I have a strong passion for learning and I am a strong believer in the
+            growth mindset.
+          </p>
         </div>
-      </a>
-      <a href="portfolio.html">
-        <div class="card">
-          Portfolio
+      </div>
+      <div style="cursor: pointer;" onclick="javascript:window.location.href = 'portfolio.html';" class="card">
+        Portfolio
+      </div>
+      <div class="card" style="cursor:pointer;" onclick="javscript:window.location.href = 'resume.html';">
+        Resume
+      </div>
+      <div style="cursor: pointer;" onclick="javascript:window.location.href = 'https://gitlab.com/J0ND03';" class="card">
+          Git
+      </div>
+      <div style="cursor: pointer;" onclick="javascript:toggleContent('contact_content');" class="card">
+        Contact
+        <div id="contact_content" style="display:none;">
+          <p>
+            mail: jackmaverickdavidson at gmail dot com
+          </p>
         </div>
-      </a>
-      <a href="resume.html">
-        <div class="card">
-          Resume
-        </div>
-      </a>
-      <a href="https://gitlab.com/J0ND03">
-        <div class="card">
-            Git
-        </div>
-      </a>
-      <a href="javascript:toggleContent('contact_content');">
-        <div class="card">
-          Contact
-          <div id="contact_content" style="display:none;">
-            <p>
-              mail: jackmaverickdavidson at gmail dot com
-            </p>
-          </div>
-        </div>
-      </a>
+    </div>
     </div>
   </div>
 </body>
