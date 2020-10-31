@@ -1,0 +1,76 @@
+html {
+	font-family: 'Roboto Mono', monospace;
+}
+
+body {
+	font-size: 15px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	color: inherit; 
+}
+
+.card {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	border-radius: 10px;
+	transition: 0.3s;
+	padding: 10px;
+	margin: 10px;
+	width: fill;
+}
+
+.menu {
+	width: 50vw;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5vw;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.profile {
+	padding-top: 2vw;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	width: 30vw;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2vw;
+	margin-bottom: 4vw;
+}
+
+.card.profile:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+	box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+img {
+	max-width: 20%;
+	border-radius: 5px;
+	margin-bottom: 1vw;
+}
+
+.grid {
+	display: grid;
+	grid-gap: 1;
+}
+
+@media screen and (max-width: 1000px) {
+	.menu {
+		width: 80vw;
+	}
+	.profile {
+		width: 60vw;
+		margin-bottom: 8vw;
+	}
+}
