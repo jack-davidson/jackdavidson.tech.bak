@@ -1,6 +1,7 @@
 function toggleContent(id)
 {
 	var id_content = document.getElementById(id);
+
 	if (id_content.style.display === "none") {
 		id_content.style.display = "block";
 	} else {
