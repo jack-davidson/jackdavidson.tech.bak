@@ -8,7 +8,7 @@ body::-webkit-scrollbar {
 
 body {
 	font-size: 15px;
-	background-color: #eee;
+	background-color: #fff;
 	color: #000000;
 	-ms-overflow-style: none;
 	scrollbar-width: none;

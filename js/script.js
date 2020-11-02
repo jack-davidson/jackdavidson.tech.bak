@@ -33,7 +33,7 @@ function addPopOut(id, content_id)
 	};
 }
 
-/* Once DOM is fully loaded, do:  */
+/* Do these things when DOM is fully loaded.  */
 window.onload = function()
 {
 	/* Pop out menu by toggling hide/unhide of element.  */
