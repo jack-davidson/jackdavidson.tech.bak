@@ -20,13 +20,10 @@ a {
 	color: inherit; 
 }
 
-.card {
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-	border-radius: 10px;
-	transition: 0.3s;
-	padding: 10px;
-	margin: 10px;
-	width: fill;
+img {
+	max-width: 20%;
+	border-radius: 5px;
+	margin-bottom: 1vw;
 }
 
 #portfolio_grid {
@@ -52,23 +49,26 @@ a {
 	margin-bottom: 4vw;
 }
 
+.grid {
+	display: grid;
+	grid-gap: 1;
+}
+
+.card {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	border-radius: 10px;
+	transition: 0.3s;
+	padding: 10px;
+	margin: 10px;
+	width: fill;
+}
+
 .card.profile:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .card:hover {
 	box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
-}
-
-img {
-	max-width: 20%;
-	border-radius: 5px;
-	margin-bottom: 1vw;
-}
-
-.grid {
-	display: grid;
-	grid-gap: 1;
 }
 
 @media screen and (max-width: 1000px) {
