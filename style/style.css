@@ -2,9 +2,12 @@ html {
 	font-family: 'Roboto Mono', monospace;
 }
 
+body::-webkit-scrollbar {
+	display: none; }  body{   -ms-overflow-style: none;     scrollbar-width: none;  }
+
 body {
 	font-size: 15px;
-	background-color: #ffffff;
+	background-color: #eee;
 	color: #000000;
 }
 
