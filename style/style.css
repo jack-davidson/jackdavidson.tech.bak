@@ -1,5 +1,8 @@
 html {
 	font-family: 'Roboto Mono', monospace;
+	background-color: #fff;
+	font-size: 15px;
+	color: #000000;
 }
 
 body::-webkit-scrollbar {
@@ -7,9 +10,6 @@ body::-webkit-scrollbar {
 }
 
 body {
-	font-size: 15px;
-	background-color: #fff;
-	color: #000000;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
 }
