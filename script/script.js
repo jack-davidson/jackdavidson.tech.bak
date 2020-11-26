@@ -42,6 +42,6 @@ window.onload = function()
 	addPopOut("portfolio", "portfolio_content");
 
 	/* Add link location to an element.  */
-	addHref("git", "https://gitlab.com/J0ND03");
+	addHref("git", "https://github.com/jack-davidson");
 	addHref("resume", "resume.html");
 }
